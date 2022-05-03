@@ -1,0 +1,8 @@
+.screen{
+    border:solid brown;
+    background-image:url(treasure\ map.jpeg);
+    background-size:cover;
+    height:52vh;
+    display:flex;
+    justify-content:space-between;
+}

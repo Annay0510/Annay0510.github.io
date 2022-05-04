@@ -1,8 +1,6 @@
 .screen{
-    border:solid brown;
-    background-image:url(treasure\ map.jpeg);
-    background-size:cover;
-    height:52vh;
-    display:flex;
-    justify-content:space-between;
+background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJnC5SY0X9G-aMW6dp1gkjzAxMMqZLwyysOA&usqp=CAUps://www.iconspng.com/image/135184/cross-on-treasure-map');
+background-size: cover;
+height: 80vh;
+border:solid blue;
 }

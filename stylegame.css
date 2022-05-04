@@ -7,7 +7,25 @@ border:solid blue;
 
 .buttons{
 background-color: red;
-border-radius: 50%;
+border-width: 3px;
+border-radius: 60%;
+border-color: red;
 height:15px;
+}
+#finish{
+    margin-top: 18%;
+    margin-left: 51.5%;
+}
+#one{
+    margin-top: 15%;
+    margin-left: 63.25%;
+} 
+#two{
+    margin-top: ;
+}
 
+#three{}
+#four{}
+#five{
+    margin-left: 4%;
 }

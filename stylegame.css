@@ -6,6 +6,7 @@ border:solid blue;
 }
 
 .buttons{
+size:4px;
 background-color: red;
 border-width: 3px;
 border-radius: 60%;
@@ -15,9 +16,10 @@ position:relative;
 }
 
 #finish{
-   position:absolute;
-   top:22%;
-   left: 40%
+    background-image: ;
+    position:absolute;
+    top:22%;
+    left: 40%
 }
 #one{
     position:absolute;
@@ -31,14 +33,23 @@ position:relative;
 }
 #three{
     position:absolute;
-    top:22%;
-    left: 53%
+    top:38%;
+    left: 25%
 }
 #four{
     position:absolute;
-    top:22%;
-    left: 53%
+    top:61%;
+    left: 35%
 }
 #five{
-    margin-left: 4%;
+    position:absolute;
+    top:44%;
+    left: 49%
+}
+.start{
+    position:absolute;
+    top:2%;
+    left: 3%;
+    background-color:brown;
+    color:aliceblue;
 }

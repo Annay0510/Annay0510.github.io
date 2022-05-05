@@ -29,32 +29,32 @@ position:relative;*/
     top:22%;
     left: 40%
 }
-#one{
+#start{
     position:absolute;
     top:40%;
     left: 3%
 } 
-#two{
+#one{
     position:absolute;
     top: 24.5%;
     left: 12%
 }
-#three{
+#two{
     position:absolute;
     top:38%;
     left: 25%
 }
-#four{
+#three{
     position:absolute;
     top:60%;
     left: 35%
 }
-#five{
+#four{
     position:absolute;
     top:44%;
     left: 49%
 }
-#start{
+#restart{
     position:absolute;
     top:2%;
     left: 3%;

@@ -4,19 +4,27 @@ background-size: cover;
 height: 720px;
 border:solid blue;
 }
-
+.buttons: hover{
+    background:red;
+    color:white;
+}
 .buttons{
-size:4px;
-background-color: red;
-border-width: 3px;
-border-radius: 60%;
+    padding:5px;
+    background-color: red;
+    border-radius: 60%;
+    border-width: 3px;
+    border-color:brown;
+
+/*;
+
+
 border-color: red;
 height:15px;
-position:relative;
+position:relative;*/
 }
 
+
 #finish{
-    background-image: ;
     position:absolute;
     top:22%;
     left: 40%
@@ -38,7 +46,7 @@ position:relative;
 }
 #four{
     position:absolute;
-    top:61%;
+    top:60%;
     left: 35%
 }
 #five{
@@ -46,7 +54,7 @@ position:relative;
     top:44%;
     left: 49%
 }
-.start{
+#start{
     position:absolute;
     top:2%;
     left: 3%;

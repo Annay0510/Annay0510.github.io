@@ -4,7 +4,7 @@ background-size: cover;
 height: 720px;
 border:solid blue;
 }
-.buttons: hover{
+.buttons:hover{
     background:red;
     color:white;
 }

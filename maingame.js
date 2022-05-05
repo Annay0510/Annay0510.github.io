@@ -48,3 +48,4 @@ function endQuest(){
             alert ("You're answer is true! For the next round, just click on the 2!")}
                                    
                 else alert ("Oh no! You missed it! No treaure for you!")
+        }

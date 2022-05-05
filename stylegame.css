@@ -32,7 +32,9 @@ position:relative;*/
 #start{
     position:absolute;
     top:40%;
-    left: 3%
+    left: 2%;
+    background-color: green;
+    color:aliceblue;
 } 
 #one{
     position:absolute;

@@ -1,3 +1,13 @@
+let keepScore=0
+function checkScore(){
+    var keepScore= 0++;
+    if(keepScore>1){
+        let div=document.getElementById ("one").parentElement 
+        let img=document.createElement("img")
+        img.src="pirate.gif"
+        div.append(img)   
+    }
+}
 function promptMe(){
     var welcome= prompt("Welcome to Treasure Hunt! What is your name?");
     alert ("Hey "+welcome+"! Click on the number one to begin the hunt!")

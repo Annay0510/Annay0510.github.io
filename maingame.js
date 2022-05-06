@@ -1,20 +1,30 @@
 let keepScore=0
+
 function checkScore(){
-    var keepScore= 0++;
-    if(keepScore>1){
+    keepScore++
+    if(keepScore==1){
         let div=document.getElementById ("one").parentElement 
         let img=document.createElement("img")
+        img.setAttribute("id","pirate")
         img.src="pirate.gif"
-        div.append(img)   
+        div.append(img)
+        alert ("Yikes! You've been spotted! Try again but don't doubt. Get another question wrong and the pirate will take you out!")
+    }
+    if(keepScore>1){
+        let img=document.getElementById ("pirate")
+        img.classList.toggle("pirateWin")
+        alert ("Oh no! You missed it! Your chances are through. The pirate is coming! No treaure for you! GAME OVER!")
     }
 }
+
 function promptMe(){
-    var welcome= prompt("Welcome to Treasure Hunt! What is your name?");
+    var welcome= prompt("Welcome to Treasure Hunt! What is your name?")
     alert ("Hey "+welcome+"! Click on the number one to begin the hunt!")
    
 }
+
 function restartMe(){
-    var restart= alert("Click on Start Game to Begin!");
+    var restart= alert("Click on Start Game to Begin!")
 }
 
 function fstQuest(){
@@ -22,52 +32,34 @@ function fstQuest(){
     if(numOne==="A"){
         alert ("You're answer is true! For the next round, just click on the 2!")
     }else{
-        let div=document.getElementById ("one").parentElement 
-        let img=document.createElement("img")
-        img.src="pirate.gif"
-        div.append(img)
-        alert ("Oh well...you tried. Today's not your day. The pirate is coming to chase you away! GAME OVER!")
+        checkScore()
     }
-    
-
 }
+
 function sndQuest(){
     var numTwo= prompt("Quest 2 - Solve the riddle: So many lines- so much at stake. This tag is used to add a line break. Is it A <break> or B <br>?")
     if(numTwo==="B"){
         alert ("You're alright with me! For the next round, just click on the 3!")
-    }else{
-        let div=document.getElementById ("two").parentElement 
-        let img=document.createElement("img")
-        img.src="pirate.gif"
-        div.append(img)
-        alert ("Oh no! You missed it! Your chances are through. The pirate is coming! No treaure for you! GAME OVER!")
+    }else{ 
+        checkScore()
     }
- }
+}
 
 function trdQuest(){
     var numThree= prompt("Quest 3 - Solve the riddle: I worked so hard to make this website. This tag is where I display copywrite. Is it A <footer> or B <copy>?")
     if(numThree==="A"){
         alert ("You're ready for more! For the next round, just click on the 4!")
     }else{
-        let div=document.getElementById ("three").parentElement 
-        let img=document.createElement("img")
-        img.src="pirate.gif"
-        div.append(img)
-        alert ("Oh well...you tried. Today's not your day. The pirate is coming to chase you away! GAME OVER!")
+        checkScore()
     }
 } 
            
-
 function frthQuest(){
     var numFour= prompt("Quest 4 - Solve the riddle: Paragraphs, tables, a form just for kicks. This tag is used to add some nice pics. Is it A <pic> or B <img>?")
     if(numFour==="B"){
         alert ("X marks the spot! You're Treasure awaits! You won! Click X before it's too late!")
     }else{
-        let div=document.getElementById ("four").parentElement 
-        let img=document.createElement("img")
-        img.src="pirate.gif"
-        div.append(img)
-        alert ("Oh no! You missed it! Your chances are through. The pirate is coming! No treaure for you! GAME OVER!")
+        checkScore()
     } 
 }
 

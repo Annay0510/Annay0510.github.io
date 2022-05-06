@@ -14,13 +14,6 @@ border:solid blue;
     border-radius: 60%;
     border-width: 3px;
     border-color:brown;
-
-/*;
-
-
-border-color: red;
-height:15px;
-position:relative;*/
 }
 
 
@@ -62,4 +55,21 @@ position:relative;*/
     left: 3%;
     background-color:brown;
     color:aliceblue;
+}.pirateWin{
+    /* content:url("pirate.gif"); */
+    position:absolute;
+    animation-name: pirateWon;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes pirateWon{
+    0%{
+        left: 0%; 
+        top: 0%;
+    }
+    100%{
+        left: 50%; 
+        top: 50%;
+    }
 }

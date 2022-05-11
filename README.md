@@ -14,3 +14,5 @@ Click on the Start button to start the game. Follow the prompts to advance.
 
 Unsolved problems:
 I was able to solve all the issues with my game with the help of my instructor, TA's, peers, and the internet/youtube videos. I would have loved to make this game cooler. It's basic but entertaining. I would have liked to have several choices for questions on each quest, and the ability to play against another player, instead of just playing against the computer.
+
+I would like to cite Traversy Media. I watched several of his crash courses to help with my animations and functions. Thank you.
